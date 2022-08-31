@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 18%;
+    padding-top: 0%;
+    margin: 0px;
+    background-color: black;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    padding: 4px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+nav {
+    display: flex;
+    text-align: right;
+    background: gray;
+    overflow: hidden;
+    position: sticky;
+
+
+}
+
+header {
+
+    padding: 50px;
+    text-align: center;
+    background: rgb(17 143 158);
+
+}
+
+header h1 {
+    font-size: 40px;
+    text-shadow: 00 0 3px #ff0000, 0 0 5px #0000ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 14px 20px;
+    float: right;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(207, 140, 140);
+    color: rgb(3, 1, 134);
+}
+
+nav a:active {
+    background-color: rgb(198, 214, 22);
+    color: red;
+}
+
+h6 {
+    text-align: right;
+    text-decoration: dotted;
+}
+
+.content {
+    padding: 5%;
+    padding-top: 0%;
+    border: black;
+    border: 0.1rem solid;
+    background: #ffe;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.content dl dt {
+    color: red;
+}
+
+img {
+    height: 60%;
+    align-self: center;
+    border-radius: 3px black;
+}
+
+.content h1 {
+    text-align: center;
+    text-decoration: solid;
+    background: rgb(239, 239, 191);
+
+}
+
+/* ////////////////// */
+
+/* index css */
+.idxContent h1 {
+    text-align: right;
+    padding-top: 20px;
+
+    background: rgb(245, 218, 218);
+}
+
+.idxContent {
+    background-color: rgb(245, 218, 218);
+    padding: 6%;
+    padding-top: 0%;
+    padding-bottom: 4%;
+}
+
+.idxContent a {
+    text-decoration: none;
+}
+
+.idxContent a:hover {
+    color: rgb(4, 11, 84)
+}
+
+.idxContent a:active {
+    color: rgb(36, 222, 58)
+}
+
+/* styling button */
+.btn1 {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 32.6%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.btn1:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 164, 125, 0.24), 0 6px 20px 0 rgba(241, 164, 125, 0.19);
+    cursor: pointer;
+
+}
+
+.btn {
+    background-color: #4caf50;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 19%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 164, 125, 0.24), 0 6px 20px 0 rgba(241, 164, 125, 0.19);
+    cursor: pointer;
+}
+.btn2 {
+    background-color: #4caf50;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.btn2:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 164, 125, 0.24), 0 6px 20px 0 rgba(241, 164, 125, 0.19);
+    cursor: pointer;
+}
+
+.carousel-cell {
+    /* this is for chapter 1 */
+    
+    margin-right: 2px;
+
+    border-radius: 5px;
+}
+
+/* ////////////////// */
+/* .glossery styling */
+.glossery {
+    background: rgb(245, 218, 218);
+}
+
+.glossery th {
+    background-color: #4caf50;
+}
+
+.glossery td a {
+    text-decoration: none;
+}
+/* logo image styling */
+
+.found,
+h2,
+h4 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(139, 0, 123);
+}
+.found h4{
+    font-size: 1em;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.found img {
+
+    border-radius: 50%;
+    width: 150px;
+}
+
+.sm_handle a{
+    background-color: rgba(127, 161, 101, 0.714);
+    padding: 10px 15px ;
+    border-radius: 30px;
+    margin: 5px 10px ;
+    text-decoration: none;
+    font-size: 1.2em;
+
+  }
+  .sm_handle a:hover{
+    background-color: coral;
+  }
+  .sm_handle a i{
+    margin: 6px;
+  }
+  .sm_handle{ 
+    color: #ff0000;
+  }
+  .yt_handle{
+    color: #ff0000;
+  }
+  .fb_handle{
+    color: #0e76a8;
+  }
+  .insta_handle{
+    color: #dd2e7b;
+  }
+/* footer and copy :right */
+footer {
+    overflow: hidden;
+    background-color: #333;
+}
+
+footer a {
+    display: block;
+    color: rgb(243, 244, 245);
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+
+}footer a:hover{
+    background-color: #f5d837;
+}
+footer a:active{
+    background-color: rgb(141, 63, 131);
+}
+.copyright {
+    float: right;
+}
